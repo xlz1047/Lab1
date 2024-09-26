@@ -1,18 +1,31 @@
 import React from 'react';
 import './App.css';
-import Card from './components/Card';
+import Card from './components/Card'; // Assuming Card component is in a "components" folder
 
+// Import images from assets folder
+import paella from './assets/paella.jpg';
+import sushi from './assets/sushi.png';
+import moussaka from './assets/moussaka.jpg';
+import pekingDuck from './assets/peking_duck.jpg';
+import pho from './assets/pho.jpg';
+import tomYum from './assets/tom_yum.jpg';
+import goulash from './assets/goulash.jpg';
+import chickenTikkaMasala from './assets/chicken_tikka_masala.jpg';
+import pizza from './assets/pizza.jpg';
+import duckConfit from './assets/duck_confit.jpg';
+
+// Data for the food cards
 const foodData = [
-  { image: '/images/sushi.jpg', name: 'Sushi', place: 'Japan', link: 'https://example.com/sushi' },
-  { image: '/images/tacos.jpg', name: 'Tacos', place: 'Mexico', link: 'https://example.com/tacos' },
-  { image: '/images/pizza.jpg', name: 'Pizza', place: 'Italy', link: 'https://example.com/pizza' },
-  { image: '/images/pad-thai.jpg', name: 'Pad Thai', place: 'Thailand', link: 'https://example.com/pad-thai' },
-  { image: '/images/curry.jpg', name: 'Curry', place: 'India', link: 'https://example.com/curry' },
-  { image: '/images/falafel.jpg', name: 'Falafel', place: 'Middle East', link: 'https://example.com/falafel' },
-  { image: '/images/bbq.jpg', name: 'BBQ', place: 'USA', link: 'https://example.com/bbq' },
-  { image: '/images/dumplings.jpg', name: 'Dumplings', place: 'China', link: 'https://example.com/dumplings' },
-  { image: '/images/bulgogi.jpg', name: 'Bulgogi', place: 'Korea', link: 'https://example.com/bulgogi' },
-  { image: '/images/paella.jpg', name: 'Paella', place: 'Spain', link: 'https://example.com/paella' }
+  { image: paella, name: 'Paella', place: 'Spain', link: 'https://www.recipetineats.com/spanish-paella/' },
+  { image: sushi, name: 'Sushi', place: 'Japan', link: 'https://www.japan.travel/en/guide/sushi-in-japan/' },
+  { image: moussaka, name: 'Moussaka', place: 'Greece', link: 'https://www.dimitrasdishes.com/moussaka/' },
+  { image: pekingDuck, name: 'Peking Duck', place: 'China', link: 'https://zandypekingduck.com/2024/01/15/the-history-of-peking-duck/' },
+  { image: pho, name: 'Pho', place: 'Vietnam', link: 'https://vietnam.travel/things-to-do/history-pho' },
+  { image: tomYum, name: 'Tom Yum', place: 'Thailand', link: 'https://www.recipetineats.com/tom-yum-soup-thai/' },
+  { image: goulash, name: 'Goulash', place: 'Hungary', link: 'https://www.daringgourmet.com/traditional-hungarian-goulash-gulyas/' },
+  { image: chickenTikkaMasala, name: 'Chicken Tikka Masala', place: 'India', link: 'https://cafedelites.com/chicken-tikka-masala/' },
+  { image: pizza, name: 'Pizza', place: 'Italy', link: 'https://www.eduardosenoteca.com/blog/italys-pizza-by-region' },
+  { image: duckConfit, name: 'Confit de Canard', place: 'France', link: 'https://job-in-france.babylangues.com/french-cuisine/confit-de-canard/' }
 ];
 
 function App() {
