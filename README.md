@@ -26,10 +26,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='Animation.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/xlz1047/Project-1-Community-Board/blob/main/Animation.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
+GIF created with ScreenToGif(https://www.screentogif.com/) for Windows
 
 ## Notes
 
