@@ -1,8 +1,8 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Global Community Food Board*
 
 Submitted by: **Xin Zheng**
 
-This web app: **The Community Food Board displays 10 unique food items from different places around the world. Each card contains an image of the food, its name, the place it's from, and a button that links to a website for more information. The app aims to introduce users to diverse cuisines through an interactive and responsive interface.**
+This web app: **The Global Community Food Board displays 10 unique food items from different places around the world. Each card contains an image of the food, its name, the place it's from, and a button that links to a website for more information. The app aims to introduce users to diverse cuisines through an interactive and responsive interface.**
 
 Time spent: **8** hours spent in total
 
