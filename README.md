@@ -1,8 +1,8 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Global Community Food Board*
 
 Submitted by: **Xin Zheng**
 
-This web app: **The Community Food Board displays 10 unique food items from different places around the world. Each card contains an image of the food, its name, the place it's from, and a button that links to a website for more information. The app aims to introduce users to diverse cuisines through an interactive and responsive interface.**
+This web app: **The Global Community Food Board displays 10 unique food items from different places around the world. Each card contains an image of the food, its name, the place it's from, and a button that links to a website for more information. The app aims to introduce users to diverse cuisines through an interactive and responsive interface.**
 
 Time spent: **8** hours spent in total
 
@@ -10,17 +10,17 @@ Time spent: **8** hours spent in total
 
 The following **required** functionality is completed:
 
-- [✓] **There is a unique theme for events or resources relevant to a specific community**
-- [✓] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [✓] Buttons or links to a related resources are on each card component
-- [✓] The site is responsive for both desktop and mobile formats
+- [x] Buttons or links to a related resources are on each card component
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
-* [✓] There is hover effect of the displayed card
+* [x] There is hover effect of the displayed card
 
 ## Video Walkthrough
 
@@ -37,7 +37,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The main challenge encountered while building the app was ensuring the site was fully responsive across both desktop and mobile formats, while maintaining the layout integrity of the food cards and their hover effects.
 
 ## License
 
